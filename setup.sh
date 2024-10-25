@@ -15,7 +15,7 @@ sudo zypper install greetd
 sudo zypper install hyprland kitty qt6-wayland xwayland
 
 # Install desktop tools
-sudo zypper install awk grim hypridle hyprlock hyprpaper nautilus polkit-gnome slurp SwayNotificationCenter waybar wl-clipboard wofi xdg-desktop-portal xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xdg-utils
+sudo zypper install awk brightnessctl grim hypridle hyprlock hyprpaper nautilus polkit-gnome slurp SwayNotificationCenter waybar wl-clipboard wofi xdg-desktop-portal xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xdg-utils
 
 # Install Audio, Bluetooth and Network Utilities
 sudo zypper install pipewire pipewire-also pipewire-pulseaudio wireplumber pavucontrol bluez blueman NetworkManager NetworkManager-applet
