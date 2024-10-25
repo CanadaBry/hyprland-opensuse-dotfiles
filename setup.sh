@@ -12,13 +12,19 @@ sudo zypper install nvidia-video-G06 nvidia-gl-G06 nvidia-compute-utils-G06
 sudo zypper install greetd
 
 # Install hyprland
-sudo zypper install hyprland kitty qt6-wayland xwayland
+sudo zypper install hyprland kitty qt6-wayland
+
+# Install "Must Haves"
+sudo zypper install pipewire pipewire-alsa pipewire-pulseaudio wireplumber # Audio
+sudo zypper install polkit-gnome # Polkit
+sudo zypper install SwayNotificationCenter # Notification daemon
+sudo zypper install xdg-desktop-portal xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xdg-utils # Desktop portals
 
 # Install desktop tools
-sudo zypper install awk brightnessctl grim hypridle hyprlock hyprpaper nautilus polkit-gnome slurp SwayNotificationCenter waybar wl-clipboard wofi xdg-desktop-portal xdg-desktop-portal-hyprland xdg-desktop-portal-gtk xdg-utils
+sudo zypper install awk brightnessctl grim hypridle hyprlock hyprpaper nautilus slurp waybar wl-clipboard wofi
 
 # Install Audio, Bluetooth and Network Utilities
-sudo zypper install pipewire pipewire-also pipewire-pulseaudio wireplumber pavucontrol bluez blueman NetworkManager NetworkManager-applet
+sudo zypper install pavucontrol bluez blueman NetworkManager NetworkManager-applet
 
 # Install additional fonts
 sudo zypper install adobe-sourcesanspro-fonts jetbrains-mono-fonts fontawesome-fonts
