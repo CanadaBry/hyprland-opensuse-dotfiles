@@ -19,7 +19,7 @@
     },
     "custom/logo": {
         "format": "    ",
-        "on-click": "exec ~/.config/waybar/scripts/power-menu.sh",
+        "on-click": "exec ~/.config/wofi/scripts/power-menu.sh",
         "tooltip": false
     },
     "custom/zypper": {
