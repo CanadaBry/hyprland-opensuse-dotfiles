@@ -12,7 +12,7 @@ sudo zypper install nvidia-video-G06 nvidia-gl-G06 nvidia-compute-utils-G06
 sudo zypper install greetd
 
 # Install hyprland
-sudo zypper install hyprland kitty qt6-wayland
+sudo zypper install hyprland kitty qt6-wayland libqt5-qtwayland
 
 # Install "Must Haves"
 sudo zypper install pipewire pipewire-alsa pipewire-pulseaudio wireplumber # Audio
@@ -68,6 +68,10 @@ xdg-mime default io.gitlab.librewolf-community.desktop text/html
 gio mime x-scheme-handler/https io.gitlab.librewolf-community.desktop
 gio mime x-scheme-handler/http io.gitlab.librewolf-community.desktop
 gio mime text/html io.gitlab.librewolf-community.desktop
+
+# Set to dark mode
+gsettings set org.gnome.desktop.interface color-scheme prefer-dark
+gsettings set org.gnome.desktop.interface gtk-theme Adwaita-dark
 
 # Done
 echo 'Please reboot now'
