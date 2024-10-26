@@ -45,7 +45,8 @@
         // "timezone": "America/New_York",
         "format": "  {:%Y-%m-%d %R}",
         "format-alt": "{:%a %d %b w:%V %H:%M}",
-        "interval": 10
+        "interval": 10,
+	"tooltip": false
     },
     "cpu": {
         "format": "{usage}% ",
